@@ -50,7 +50,7 @@ Camera2 NDK → Camera HAL → Hardware
 
 ## 📂 Documentation
 Detailed project documentation is available here:  
-📄 [`docs/Project_Documentation.pdf`](docs/Project_Documentation.pdf)
+📄 [`docs/Native Camera Application Documentation.pdf.pdf`](docs/Native Camera Application Documentation.pdf)
 
 ---
 
