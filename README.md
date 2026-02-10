@@ -62,8 +62,4 @@ Detailed project documentation is available here:
 
 ---
 
-## 👤 Author
-**Akhil**  
-Android NDK | Embedded Systems | OS Internals
-
 
