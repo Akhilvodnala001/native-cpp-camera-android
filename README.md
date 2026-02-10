@@ -26,3 +26,44 @@ This project minimizes Java/Kotlin usage and demonstrates direct interaction wit
 ---
 
 ## 📐 Architecture Overview
+UI (XML / TextureView)
+↓
+MainActivity (Kotlin)
+↓ JNI
+Native Layer (C++)
+↓
+Camera2 NDK → Camera HAL → Hardware
+
+
+
+---
+
+## ▶️ Build & Run
+1. Open project in **Android Studio**
+2. Grant **Camera permission**
+3. Run on a real Android device (Camera HAL required)
+4. Tap **PHOTO** to capture image
+
+> Emulator is not recommended (no full camera HAL support)
+
+---
+
+## 📂 Documentation
+Detailed project documentation is available here:  
+📄 [`docs/Project_Documentation.pdf`](docs/Project_Documentation.pdf)
+
+---
+
+## 🚀 Future Enhancements
+- Video recording using MediaCodec + MediaMuxer
+- Front/Back camera switching
+- Autofocus & exposure control
+- System app integration for AOSP
+
+---
+
+## 👤 Author
+**Akhil**  
+Android NDK | Embedded Systems | OS Internals
+
+
