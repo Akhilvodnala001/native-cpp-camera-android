@@ -25,19 +25,6 @@ This project minimizes Java/Kotlin usage and demonstrates direct interaction wit
 
 ---
 
-## 📐 Architecture Overview
-UI (XML / TextureView)
-↓
-MainActivity (Kotlin)
-↓ JNI
-Native Layer (C++)
-↓
-Camera2 NDK → Camera HAL → Hardware
-
-
-
----
-
 ## ▶️ Build & Run
 1. Open project in **Android Studio**
 2. Grant **Camera permission**
